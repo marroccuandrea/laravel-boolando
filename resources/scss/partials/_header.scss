@@ -11,6 +11,25 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+
+
+                a {
+                    text-decoration: none;
+                    color: $bianco;
+                    padding: 10px;
+
+                    &hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 
     .logo {
@@ -19,17 +38,5 @@ header {
     }
 
 
-    ul {
-        display: flex;
-        list-style: none;
 
-        li {
-
-
-            a {
-                text-decoration: none;
-                color: $bianco;
-            }
-        }
-    }
 }
