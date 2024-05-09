@@ -3,9 +3,10 @@
         <div>
             <ul>
                 <li>
-                    <a href="#">Uomo</a>
-                    <a href="#">Donna</a>
-                    <a href="#">Bambino</a>
+                    <a href="{{ route('uomo') }}">Uomo</a>
+                    <a href="{{ route('donna') }}">Donna</a>
+                    <a href="{{ route('bambino') }}">Bambino</a>
+                    <a href="{{ route('home') }}">Home</a>
                 </li>
 
             </ul>
